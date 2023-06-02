@@ -1,0 +1,8 @@
+package controlflowStatements;
+
+public class DecisionMakingTypeTest {
+public static void main(String[] args) {
+	DecisionMakingStatements2 obj=new DecisionMakingStatements2();
+	obj.scan();
+	
+	

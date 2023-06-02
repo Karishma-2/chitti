@@ -1,0 +1,34 @@
+package reversenumber;
+
+public class SeriesPalindrome {
+public class SeriesofPalindrome {
+	private int lw,up;
+	private Object scan;
+	private void ScanRange()
+	{
+		System.out.println("Enter lw,up values");
+		lw=scan.nextInt();
+		up=scan.nextInt();
+	}
+
+public void displaySeriesofPalindrome() {
+	this.ScanRange();
+	for(int i=lw;i<=up;i++)
+	{
+		int rev1=this.getReverseofNumbers(i);
+		boolean status=this.ispalindrome(i, rev1);
+		this.displaySeriesofPalindrome();
+	}
+}
+}
+
+public void displaySeriesofPalindrome() {
+	// TODO Auto-generated method stub
+	
+}
+}
+
+
+	
+
+

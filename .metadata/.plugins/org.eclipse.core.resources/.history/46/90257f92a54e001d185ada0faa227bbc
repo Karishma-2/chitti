@@ -1,0 +1,11 @@
+package controlflowStatements;
+
+public class DecisionMakingTypeTest {
+	public static void main(String[] args) {
+		DecisionMakingStatements1 obj=new DecisionMakingStatements1();
+		obj.checkAisGreater();
+		obj.checkAorBisGreater();
+		
+	}
+
+}

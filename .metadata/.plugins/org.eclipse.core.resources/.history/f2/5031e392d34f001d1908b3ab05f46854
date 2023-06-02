@@ -1,0 +1,22 @@
+package controlflowStatements;
+
+import java.util.Scanner;
+
+public class CalculatorUsingSwitch {
+	public void CalculatorUsingSwitch() 
+	{
+	Scanner scan=new Scanner(System.in);
+    System.out.println("Enter a,b values");
+    int a=scan.nextInt(),b=scan.nextInt();
+    System.out.println("select operator");
+    char operator=scan.next().charAt(0);
+      if(operator=='+')
+	       System.out.println("sum="+(a+b));
+       else if(operator=='-');
+           System.out.println("sub="+(a-b));
+           else if(operator=='*');
+           System.out.println("mul="+(a*b));
+           else
+           System.out.println("Invalid operator");
+	}
+}

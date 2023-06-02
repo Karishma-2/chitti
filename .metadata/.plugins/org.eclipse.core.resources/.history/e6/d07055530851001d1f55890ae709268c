@@ -1,0 +1,12 @@
+package reversenumber;
+
+import reversenumber.SeriesPalindrome.SeriesofPalindrome;
+
+public class SeriesPalindromeTest {
+
+	public static void main(String[] args) {
+		SeriesPalindrome obj=new SeriesPalindrome();
+				 obj.displaySeriesofPalindrome();
+				
+	}
+}
